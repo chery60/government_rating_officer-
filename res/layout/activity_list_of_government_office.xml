@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#EDBF09"
+    android:weightSum="6" >
+
+    <Button
+        android:id="@+id/collectoroffice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:typeface="serif"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_round_corner_button"
+        android:text="Collector office" 
+        android:drawableLeft="@drawable/asdf"/>
+
+    <Button
+        android:id="@+id/rtooffice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:typeface="serif"
+        android:background="@drawable/background_round_corner_button"
+        android:layout_marginTop="5dp"
+        android:text="R.T.O office"
+         android:drawableLeft="@drawable/pioi" />
+
+    <Button
+        android:id="@+id/bsnl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:typeface="serif"
+        android:background="@drawable/background_round_corner_button"
+        android:layout_marginTop="5dp"
+        android:text="BSNL" 
+        android:drawableLeft="@drawable/jkkk"/>
+
+    <Button
+        android:id="@+id/policestation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:typeface="serif"
+        android:background="@drawable/background_round_corner_button"
+        android:layout_marginTop="5dp"
+        android:text="Police Station"
+         android:drawableLeft="@drawable/hh"/>
+
+    <Button
+        android:id="@+id/talukoffice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:typeface="serif"
+        android:background="@drawable/background_round_corner_button"
+        android:layout_marginTop="5dp"
+        android:text="Taluk Office"
+        android:drawableLeft="@drawable/talukk" />
+
+    <Button
+        android:id="@+id/postoffice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:typeface="serif"
+        android:background="@drawable/background_round_corner_button"
+        android:layout_marginTop="5dp"
+        android:text="Post Office" 
+        android:drawableLeft="@drawable/fetgr"/>
+
+</LinearLayout>
